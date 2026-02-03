@@ -1,5 +1,5 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500&display=swap');
 
 /* Variables & Theme */
 :root {
@@ -312,6 +312,12 @@ footer {
         border-top: 1px solid var(--border-color);
         gap: 1.5rem;
         text-align: center;
+    }
+
+    .nav-links a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        color: #33373D;
     }
 
     .menu-checkbox:checked~.nav-links {
